@@ -1,20 +1,35 @@
-# 📁 Data Folder
+## 📚 Dataset Access Liaison
 
-This folder is used to store the training and test datasets for Assignment 2.
+To ensure everyone in the team can access the dataset easily — whether working locally or in the cloud — we support **two setup options**:  
+1. Google Colab (no install required)  
+2. Kaggle CLI (local development)
 
-⚠️ Due to file size limitations and privacy policies, we do not include the raw data in this repository.
+---
 
-## 🛠️ Setup Instructions
+### ⚡ Option 1: Google Colab [Recommended]
 
-1. Go to the official in-class Kaggle competition page:
-   [https://www.kaggle.com/competitions/dmt-2025-2nd-assignment](https://www.kaggle.com/competitions/dmt-2025-2nd-assignment)
+Use our pre-configured Colab notebook to download and load the dataset directly from a shared Google Drive link.
 
-2. Download the following files:
-   - `train.csv`
-   - `test.csv`
+👉 [Open the Colab Notebook](https://colab.research.google.com/github/rahil1303/dmt-assignment2-2025/blob/main/notebooks/01_data_setup_and_exploration.ipynb)
 
-3. Place them in this folder (`data/`).
+This notebook will:
+- Download the `dmt-2025-2nd-assignment.zip` from Google Drive
+- Extract it into a local `/data` folder
+- Load `training_set_VU_DM.csv` and `test_set_VU_DM.csv` into Pandas
 
-4. (Optional) If you want to generate a small dev/test subset:
+✅ No setup required — just open and run.
+
+---
+
+### 🛠️ Option 2: Kaggle CLI (Local)
+
+If you prefer working locally or need full control, use the **Kaggle CLI** to download the dataset.
+
+#### Steps:
+
+1. Join the private competition using this invite link:  
+   [https://www.kaggle.com/t/44c6cb033eac40e2aec9d5ce0af03cb4](https://www.kaggle.com/t/44c6cb033eac40e2aec9d5ce0af03cb4)
+
+2. Install the Kaggle CLI:
    ```bash
-   python scripts/sample_data.py
+   pip install kaggle
