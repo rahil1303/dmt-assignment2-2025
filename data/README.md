@@ -10,7 +10,7 @@ To ensure everyone in the team can access the dataset easily — whether working
 
 Use our pre-configured Colab notebook to download and load the dataset directly from a shared Google Drive link.
 
-👉 [Open the Colab Notebook](https://colab.research.google.com/github/rahil1303/dmt-assignment2-2025/blob/main/notebooks/01_data_setup_and_exploration.ipynb)
+👉 [Open the Colab Notebook]([https://colab.research.google.com/github/rahil1303/dmt-assignment2-2025/blob/main/notebooks/01_data_setup_and_exploration.ipynb](https://colab.research.google.com/drive/12TO_sHN2aT437rNhY4WNu7FEnKr-Xzax?usp=sharing))
 
 This notebook will:
 - Download the `dmt-2025-2nd-assignment.zip` from Google Drive
