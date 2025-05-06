@@ -33,3 +33,10 @@ If you prefer working locally or need full control, use the **Kaggle CLI** to do
 2. Install the Kaggle CLI:
    ```bash
    pip install kaggle
+
+3. Download the dataset:
+   kaggle competitions download -c dmt-2025-2nd-assignment -p data
+
+4. Extract it:
+   unzip data/dmt-2025-2nd-assignment.zip -d data/
+
